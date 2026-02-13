@@ -1,10 +1,12 @@
-# Lab 5: MQTT Hardening with TLS and Client Authentication
+# MQTT Hardening with TLS and Client Authentication
 
 ## Overview
 
-In **Lab 5**, I secured MQTT communication between an ESP32 and a Mosquitto broker using **TLS** with **mutual authentication**. The lab demonstrates how to generate and apply self-signed certificates, configure Mosquitto for secure connections, and set up the ESP32 to authenticate using its own client certificate.
+This project secures MQTT communication between an ESP32 and a Mosquitto broker using TLS with mutual authentication.
 
-This setup prevents unauthorized access and ensures encrypted communication between IoT devices and the broker.
+It demonstrates how to generate and apply self-signed certificates, configure Mosquitto for encrypted connections, and authenticate the ESP32 using a client certificate.
+
+This setup prevents unauthorized access and ensures secure, encrypted communication between IoT devices and the broker.
 
 ## Key Features
 
@@ -13,10 +15,6 @@ This setup prevents unauthorized access and ensures encrypted communication betw
 - Uses **self-signed certificates** generated manually via OpenSSL
 - Secures the Mosquitto broker running in a Docker container on a Raspberry Pi
 - Demonstrates successful encrypted communication from ESP32 to broker
-
-## Task Description
-
-The task description is available in the [task-description.md](task-description.md) file.
 
 ## Solution
 
@@ -39,7 +37,7 @@ The solution consists of the following:
 2. Build the project:
 
    ```sh
-   cd lab-05-mqtt-hardening/ssl_mutual_auth
+   cd 05-mqtt-hardening/ssl_mutual_auth
    idf.py build
    ```
 
