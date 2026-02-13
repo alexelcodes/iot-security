@@ -1,8 +1,8 @@
-# Lab 1: Environment Setup
+# Environment Setup
 
 ## Overview
 
-In **Lab 1**, I configured the complete environment for testing IoT security scenarios. This includes setting up network infrastructure with EdgeRouter X, a Raspberry Pi running a full IoT Docker stack, a Kali Linux VM for security testing, and an ESP32 device publishing MQTT data. This setup provides the foundation for all future labs in the course.
+In this project, I configured the complete environment for testing IoT security scenarios. This includes setting up network infrastructure with EdgeRouter X, a Raspberry Pi running a full IoT Docker stack, a Kali Linux VM for security testing, and an ESP32 device publishing MQTT data. This setup provides the foundation for further experiments and testing.
 
 ## Key Features
 
