@@ -1,13 +1,15 @@
-# Lab 2: Network Scanning and Reconnaissance
+# Network Scanning and Reconnaissance
 
 ## Overview
 
-In **Lab 2**, I explored key network protocols, traffic capture techniques, and active reconnaissance using tools in Kali Linux. The lab is split into two parts:
+This project focuses on network protocol analysis, traffic capture, and active reconnaissance using tools available in Kali Linux.
 
-- **Part A** focuses on analyzing ARP, ICMP, and TCP using Wireshark and `tcpdump`
-- **Part B** involves discovering devices, services, and vulnerabilities using Nmap and OpenVAS.
+It is divided into two parts:
 
-This lab builds upon the environment from Lab 1 and is a crucial step in identifying potential weaknesses in IoT systems.
+- **Part A** analyzes ARP, ICMP, and TCP traffic using Wireshark and `tcpdump`
+- **Part B** discovers devices, services, and vulnerabilities using Nmap and OpenVAS
+
+The goal is to identify potential weaknesses in an IoT network environment.
 
 ## Key Features
 
@@ -17,14 +19,9 @@ This lab builds upon the environment from Lab 1 and is a crucial step in identif
 - Identifies and analyzes weaknesses using OpenVAS reports
 - Documents findings with markdown files, PlantUML diagrams, and screenshots
 
-## Task Descriptions
+## Project Files
 
-- [Part A – Networks and Protocols](task-02a-networks-and-protocols.md)
-- [Part B – System Reconnaissance](task-02b-reconnaissance.md)
-
-## Solution
-
-The lab includes the following files:
+The project includes the following files:
 
 - `mqtt_tcp/`: ESP32 project publishing MQTT messages to the broker
 - `mqtt-capture.md`: Captured MQTT message from `tcpdump`
