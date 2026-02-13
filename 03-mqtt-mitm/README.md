@@ -1,8 +1,10 @@
-# Lab 3: MQTT MITM and Packet Modification
+# MQTT MITM and Packet Modification
 
 ## Overview
 
-In **Lab 3**, I performed a **Man-in-the-Middle (MITM) attack** on MQTT traffic within a LAN and successfully modified the contents of MQTT packets in transit. The lab demonstrates advanced network-level attacks and traffic manipulation in IoT systems using tools like **Ettercap** and **Bettercap**.
+This project demonstrates a **Man-in-the-Middle (MITM) attack** on MQTT traffic within a LAN and shows how MQTT packets can be intercepted and modified in transit.
+
+It focuses on practical network-level traffic manipulation in IoT systems using tools such as **Ettercap** and **Bettercap**.
 
 ## Key Features:
 
@@ -12,13 +14,9 @@ In **Lab 3**, I performed a **Man-in-the-Middle (MITM) attack** on MQTT traffic 
 - Modifies live MQTT packet payloads using Bettercap and a custom JavaScript filter
 - Built on a real IoT setup with Raspberry Pi, ESP32, Mosquitto broker, and Kali VM
 
-## Task Description
+## Project Files
 
-The task description can be found in the [task-description.md](task-description.md) file.
-
-## Solution
-
-The lab includes:
+The project includes:
 
 - `normal-mqtt-flow.md`: Sequence diagram of the normal MQTT message path
 - `mitm-mqtt-flow.md`: Modified diagram showing MITM interception and message routing
@@ -36,7 +34,6 @@ The lab includes:
 
 ## How to Run
 
-1. Set up the IoT network as described in the course materials (EdgeRouterX, Raspberry Pi with Mosquitto, ESP32 publisher, Kali VM).
+1. Set up the IoT network (EdgeRouter X, Raspberry Pi with Mosquitto, ESP32 publisher, Kali Linux VM).
 2. Use the ESP32 to publish messages using the provided `mqtt_tcp/` project.
 3. Perform ARP spoofing from Kali using Ettercap or Bettercap.
-4. Analyze and modify traffic as instructed in the [task-description.md](task-description.md).
