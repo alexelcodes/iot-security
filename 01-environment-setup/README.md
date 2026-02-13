@@ -13,10 +13,6 @@ In this project, I configured the complete environment for testing IoT security 
 - Prepares a Kali Linux VM for scanning and monitoring
 - Connects ESP32 to publish test data to the broker
 
-## Task Description
-
-The task description can be found in the [task-description.md](task-description.md) file.
-
 ## Additional Files
 
 - `firewall-rules.md`: Notes on firewall configuration
