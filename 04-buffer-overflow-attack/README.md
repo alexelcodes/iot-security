@@ -1,8 +1,9 @@
-# Lab 4: Buffer Overflow Attack
+# Buffer Overflow Attack
 
 ## Overview
 
-In **Lab 4**, I performed a **buffer overflow attack** against a vulnerable C function on ESP32. The lab demonstrates memory exploitation techniques by crafting a custom payload that hijacks the return address to enable `adminMode`.
+This project demonstrates a **stack-based buffer overflow attack** against a vulnerable C function running on ESP32.  
+It shows how a crafted payload can overwrite the return address and hijack execution flow to enable `adminMode`.
 
 ## Key Features
 
@@ -12,13 +13,9 @@ In **Lab 4**, I performed a **buffer overflow attack** against a vulnerable C fu
 - Provides mitigation using `strncpy`
 - Built with **ESP-IDF**, compiled for **ESP32-C6**
 
-## Task Description
+## Project Files
 
-The task description can be found in the [task-description.md](task-description.md) file.
-
-## Solution
-
-This lab includes:
+This project includes:
 
 - `buffer_overflow/`: ESP-IDF project with the vulnerable function and crafted exploit
 - `vulnerable.c`: Original vulnerable source file
